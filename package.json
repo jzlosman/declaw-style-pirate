@@ -1,0 +1,40 @@
+{
+  "name": "declaw-style-pirate",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A minimal third-party Declaw style plugin example.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzlosman/declaw-style-pirate.git"
+  },
+  "homepage": "https://github.com/jzlosman/declaw-style-pirate",
+  "bugs": {
+    "url": "https://github.com/jzlosman/declaw-style-pirate/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "declaw-style",
+    "example"
+  ],
+  "files": [
+    "index.ts",
+    "style.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "pi-declaw": "^0.2.0"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "test": "tsx --test style.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5"
+  }
+}
