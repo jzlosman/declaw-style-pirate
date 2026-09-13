@@ -4,7 +4,7 @@ export const piratePlugin: DeclawStylePlugin = {
   apiVersion: 1,
   id: "pirate",
   name: "Pirate styles",
-  version: "0.1.0",
+  version: "0.1.1",
   status: "active",
   styles: [{
     id: "pirate/pirate",

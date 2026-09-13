@@ -1,6 +1,6 @@
 {
   "name": "declaw-style-pirate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "A minimal third-party Declaw style plugin example.",
   "license": "Apache-2.0",
@@ -26,7 +26,7 @@
     "LICENSE"
   ],
   "dependencies": {
-    "pi-declaw": "^0.2.0"
+    "pi-declaw": "^0.4.0"
   },
   "pi": {
     "extensions": ["./index.ts"]
